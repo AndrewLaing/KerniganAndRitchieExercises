@@ -68,7 +68,7 @@ static char *keytab[] = { "a","about","above","after","again","all","also","am",
 struct tnode {            /* the tree node:       */
     char *word;           /* points to the text   */
     int lines[MAXLINES];
-    int count;            /* number of occurances */
+    int count;            /* number of occurences */
     struct tnode *left;   /* left child           */
     struct tnode *right;  /* right child          */
 };
